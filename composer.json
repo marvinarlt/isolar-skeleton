@@ -1,0 +1,21 @@
+{
+    "name": "marvinarlt/isolar-skeleton",
+    "description": "Small OOP Framework Starter Skeleton.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marvin Arlt",
+            "email": "mail@marvinarlt.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "marvinarlt/isolar": "dev-main"
+    }
+}
